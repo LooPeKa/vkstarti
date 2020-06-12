@@ -1,20 +1,20 @@
 # Установка
 ```python
-pip install vkstartiii
+pip install vkstarti
 ```
 # Установка обновления 
 ```python 
-pip install vkstartiii --upgrade
+pip install vkstarti --upgrade
 ```
 **2 раза**
-# Простой бот на vkstartiii
+# Простой бот на vkstarti
 ```python
-import vkstartiii
-from vkstartiii import Bot,Event
+import vkstarti
+from vkstarti import Bot,Event
 
 bot = Bot( "ТОКЕН" )
 
-@vkstartiii.potok
+@vkstarti.potok
 def kommand( event ):
 	myevent = Event( event )
 	if myevent.message("Ты",lower=True):
@@ -102,7 +102,7 @@ bot.acc_unban( 1, 228, 999, 777, 666, 333 )
 # red
 ```python
 text = "казино 1000"
-vkstartiii.red( "казино ", text )
+vkstarti.red( "казино ", text )
 ```
 Ответ >
 ```python
